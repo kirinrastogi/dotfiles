@@ -1,0 +1,8 @@
+[user]
+	name = kirinrastogi
+    email = rastogikirin@gmail.com
+
+[credential "https://github.com"]
+    username = kirinrastogi
+[credential]
+	helper = cache --timeout=360000
