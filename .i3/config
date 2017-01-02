@@ -199,3 +199,5 @@ bar {
 }
 
 exec_always feh --bg-scale ~/Pictures/wallpaper2.jpg
+exec xrandr --output DVI-I-1 --mode 1920x1080 --rate 144
+
