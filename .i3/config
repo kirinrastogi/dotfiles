@@ -89,6 +89,7 @@ bindsym $mod+t exec thunar
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
 bindsym $mod+x exec ~/.i3/screenshot.sh
+bindsym $mod+c exec google-chrome
 #bindsym $mod+Shift+v exec vim
 
 # change container layout (stacked, tabbed, toggle split)
