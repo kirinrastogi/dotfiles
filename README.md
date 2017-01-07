@@ -1,5 +1,5 @@
 ## Kirin Rastogi's dotfiles
-Dotfiles for my linux desktop with i3, vi, etc. Some files are copied from https://github.com/jackychiu <br/>
+Dotfiles for my linux desktop with i3, vi, etc. Almost all files are copied from https://github.com/jackychiu <br/>
 
 ## Installing
 If you want to checkout my enviroment you can use my setup script or manually copy paste all the dotfiles into your `~` dir
