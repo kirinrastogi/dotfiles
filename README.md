@@ -11,7 +11,7 @@ Dotfiles for my linux desktop. Almost all files are copied from https://github.c
 ## Installing
 If you want to checkout my enviroment you can use my setup script or manually copy paste all the dotfiles into your `~` dir
 ```bash 
-git clone https://github.com/JackyChiu/dotfiles.git
+git clone https://github.com/kirinrastogi/dotfiles.git
 cd dotfiles
 ./setup.sh
 ```
