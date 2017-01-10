@@ -29,3 +29,6 @@ vim ~/.vimrc
 
 ## Desktop image with vim
 ![desktop](img/desktop.png)
+
+## Similar image after being locked
+![locked](img/screen_lock.png)

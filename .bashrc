@@ -129,3 +129,9 @@ export PATH=.:$PATH
 
 alias fucking='sudo'
 alias sorry='sudo $(history -p \!\!)'
+
+alias clera='clear'
+
+mdman() {
+    grep -v "\-\-\-\-\-" "$*" | pandoc -s -f markdown -t man | groff -T utf8 -man | less
+}
