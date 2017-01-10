@@ -3,7 +3,7 @@
 # Varibles
 backup=~/dotfiles_backup
 dir=$(pwd)
-dotfiles=".vimrc .vim .bashrc .fehbg .fonts .gitconfig .gtkrc-2.0 .i3 .logout .nvidia-settings-rc .Xauthority .xorg .zshrc"
+dotfiles=".vimrc .vim .bashrc .fehbg .fonts .gitconfig .gtkrc-2.0 .i3 .logout .nvidia-settings-rc .xorg .zshrc"
 
 # Backup
 mkdir -p $backup
