@@ -126,3 +126,6 @@ alias nodejs=$NODE
 alias node=$NODE
 
 export PATH=.:$PATH
+
+alias fucking='sudo'
+alias sorry='sudo $(history -p \!\!)'
