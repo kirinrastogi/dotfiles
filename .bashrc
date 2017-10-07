@@ -112,26 +112,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export VISUAL=/usr/bin/vim
+export VISUAL=/usr/local/bin/vim
 export EDITOR=$VISUAL
 alias vi=$VISUAL
 alias vim=$VISUAL
 
-export BROWSER=/usr/bin/google-chrome
-alias gc=$BROWSER
-alias ff=$BROWSER
+# load dev, but only if present and the shell is interactive
+if [[ -f /opt/dev/dev.sh ]] && [[ $- == *i* ]]; then
+  source /opt/dev/dev.sh
+fi
 
-export NODE=/usr/local/n/versions/node/7.0.0/bin/node
-alias nodejs=$NODE
-alias node=$NODE
-
-export PATH=.:$PATH
-
-alias fucking='sudo'
-alias sorry='sudo $(history -p \!\!)'
-
-alias clera='clear'
-
-mdman() {
-    grep -v "\-\-\-\-\-" "$*" | pandoc -s -f markdown -t man | groff -T utf8 -man | less
-}
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'

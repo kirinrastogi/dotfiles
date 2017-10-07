@@ -1,8 +1,10 @@
 [user]
-	name = kirinrastogi
-    email = rastogikirin@gmail.com
+  name = kirinrastogi
+  email = kirin.rastogi@shopify.com
 
 [credential "https://github.com"]
-    username = kirinrastogi
+  username = kirinrastogi
 [credential]
-	helper = cache --timeout=360000
+  helper = cache --timeout=360000
+[url "git@github.com:"]
+  insteadOf = https://github.com/
